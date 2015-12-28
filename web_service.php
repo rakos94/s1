@@ -35,7 +35,7 @@ if($kry->validateAPI($s_API)){
     }
    
    //hanya utk flag saja
-   $hasil['status'] = TRUE;
+   //$hasil['status'] = TRUE;
     
 }else{
     

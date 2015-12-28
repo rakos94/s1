@@ -46,6 +46,15 @@
                 echo "<pre>";
                     print_r($vr);
                 echo "</pre>";
+				$thedata = new StdClass;
+				foreach ($vr as $thedata->isi) {
+					foreach ($thedata as $value) {
+						echo $value['nama']."<br/>";
+						echo $value['nip']."<br/>";
+						echo $value['username']."<br/>";
+						echo "<br/>";
+					}
+				}
             }
             
         
